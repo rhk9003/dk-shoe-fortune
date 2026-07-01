@@ -13,7 +13,7 @@
 
 ```html
 <iframe
-  src="https://rhk9003.github.io/dk-shoe-fortune/?v=6"
+  src="https://rhk9003.github.io/dk-shoe-fortune/?v=7"
   style="width:100%;max-width:560px;height:720px;border:0;display:block;margin:0 auto;"
   loading="lazy"
   title="DK 夏日抽鞋占卜"></iframe>
