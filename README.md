@@ -15,7 +15,6 @@
 <iframe
   src="https://rhk9003.github.io/dk-shoe-fortune/"
   style="width:100%;max-width:560px;height:720px;border:0;display:block;margin:0 auto;"
-  allow="clipboard-write; web-share"
   loading="lazy"
   title="DK 夏日抽鞋占卜"></iframe>
 ```
