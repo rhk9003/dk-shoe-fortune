@@ -1,0 +1,9 @@
+# 工作/來源檔（非網站內容，不進版控）
+_*.json
+_*.py
+_contact*.jpg
+*.xlsx
+~$*.xlsx
+.claude/
+.DS_Store
+Thumbs.db

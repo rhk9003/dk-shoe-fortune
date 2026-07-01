@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>DK 夏日抽鞋占卜 ✦ 今日鞋籤</title>
+<meta name="description" content="洗牌、憑直覺抽一張——每一雙 DK 鞋，都藏著一句屬於你今天的運勢小語。" />
+<!-- Open Graph / 分享預覽 -->
+<meta property="og:title" content="DK 夏日抽鞋占卜 ✦ 今日鞋籤" />
+<meta property="og:description" content="憑直覺抽一張，看看今天哪一雙鞋帶著什麼運勢找上你。" />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 星空 / 粒子背景 -->
+  <div class="sky" aria-hidden="true">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div id="stars"></div>
+  </div>
+
+  <main class="app" id="app">
+
+    <!-- ① 開場 -->
+    <section class="screen screen-intro is-active" id="screen-intro">
+      <p class="eyebrow">DK · 夏日限定</p>
+      <h1 class="title">夏日抽鞋占卜</h1>
+      <p class="subtitle">洗牌、深呼吸，憑直覺抽一張<br />看看今天哪一雙鞋，帶著什麼運勢找上你 ✦</p>
+
+      <div class="deck" id="intro-deck" role="img" aria-label="一疊蓋著的占卜鞋籤">
+        <span class="deck-card"></span>
+        <span class="deck-card"></span>
+        <span class="deck-card"></span>
+        <span class="deck-card top"></span>
+      </div>
+
+      <button class="btn btn-primary" id="start-btn">✦ 抽一張今日鞋籤</button>
+      <p class="foot-hint">共 <b id="total-count">21</b> 款夏日鞋籤 · 每次抽牌都是新的緣分</p>
+    </section>
+
+    <!-- ② 選牌 -->
+    <section class="screen screen-pick" id="screen-pick">
+      <h2 class="pick-title">跟著直覺，選一張牌</h2>
+      <p class="pick-sub">別想太多——你的手會知道答案</p>
+      <div class="fan" id="fan"><!-- 蓋牌由 JS 產生 --></div>
+      <button class="btn btn-ghost" id="reshuffle-btn">↺ 重新洗牌</button>
+    </section>
+
+    <!-- ③ 揭曉 -->
+    <section class="screen screen-result" id="screen-result">
+      <div class="reveal-stage">
+        <div class="card" id="result-card">
+          <div class="card-inner" id="card-inner">
+            <!-- 牌背 -->
+            <div class="card-face card-back">
+              <div class="back-emblem">
+                <span class="back-sun">☀</span>
+                <span class="back-brand">DK</span>
+                <span class="back-label">夏日鞋籤</span>
+              </div>
+            </div>
+            <!-- 牌面 -->
+            <div class="card-face card-front">
+              <div class="theme-badge" id="r-theme">出遊運</div>
+              <div class="shoe-wrap">
+                <img id="r-img" src="" alt="" />
+              </div>
+              <p class="fortune" id="r-fortune"></p>
+              <div class="tip" id="r-tip"></div>
+              <div class="prod">
+                <span class="prod-name" id="r-name"></span>
+                <span class="prod-price" id="r-price"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-actions" id="result-actions">
+        <a class="btn btn-primary" id="buy-btn" href="#" target="_blank" rel="noopener">前往購買這雙鞋 →</a>
+        <div class="row">
+          <button class="btn btn-ghost" id="again-btn">↺ 再抽一次</button>
+          <button class="btn btn-ghost" id="share-btn">分享 ↗</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-foot">© DK 高博士健康氣墊鞋 · 娛樂性質，圖個好心情 🌴</footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="cards.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

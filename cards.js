@@ -1,0 +1,233 @@
+window.CARDS = [
+  {
+    "id": 11671616,
+    "name": "扭結造型楔型厚底涼鞋 藍色",
+    "category": "DK 氣墊鞋",
+    "price": 3280,
+    "theme": "出遊運",
+    "fortune": "牌面翻開是一片海洋藍，今夏的遠方正在向你招手，說走就走，一路輕盈到像沒在走路。",
+    "tip": "翻出行李箱擦亮再出發",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11671616",
+    "img": "images/11671616.jpg"
+  },
+  {
+    "id": 11288862,
+    "name": "柔軟真皮低跟通勤鞋 黑色",
+    "category": "DK 氣墊鞋",
+    "price": 3680,
+    "theme": "事業運",
+    "fortune": "低調的黑最會發亮，這週你不必搶著爭功，穩穩走完每一步，好機會自己會朝你走過來。",
+    "tip": "開工前先整理一次桌面",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11288862",
+    "img": "images/11288862.jpg"
+  },
+  {
+    "id": 11630288,
+    "name": "網布拼接輕感休閒鞋 灰色",
+    "category": "DK 氣墊鞋",
+    "price": 3480,
+    "theme": "貴人運",
+    "fortune": "鏤織讓風透進來，好機會也跟著滲進來，這週有貴人默默替你鋪好一條路。",
+    "tip": "留意群組裡替你說話的人",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11630288",
+    "img": "images/11630288.jpg"
+  },
+  {
+    "id": 11672610,
+    "name": "金屬扣飾牛皮楔型涼鞋 米白色",
+    "category": "DK 氣墊鞋",
+    "price": 3680,
+    "theme": "魅力運",
+    "fortune": "今天你踩著的不是鞋跟，是自信——一步一步，把整條街走成你的伸展台。",
+    "tip": "抬頭挺胸，走過人群",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11672610",
+    "img": "images/11672610.jpg"
+  },
+  {
+    "id": 11630291,
+    "name": "閃片網布輕量厚底老爹鞋 米色",
+    "category": "DK 氣墊鞋",
+    "price": 3680,
+    "theme": "財運",
+    "fortune": "今天你就是那顆會反光的閃亮裁片，越發光越吸金，貴人正朝你走來。",
+    "tip": "大方稱讚一位合作夥伴",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11630291",
+    "img": "images/11630291.jpg"
+  },
+  {
+    "id": 9021901,
+    "name": "墨白飛織空氣女鞋 白色",
+    "category": "DK 空氣鞋",
+    "price": 4680,
+    "theme": "元氣運",
+    "fortune": "翻到這雙會呼吸的白，你的元氣正在偷偷充電，今天走到哪都輕盈得像踩在雲上。",
+    "tip": "出門前深呼吸三次",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/9021901",
+    "img": "images/9021901.jpg"
+  },
+  {
+    "id": 11081876,
+    "name": "撞色網布戶外健走女鞋 橘色",
+    "category": "DK 戶外鞋",
+    "price": 4680,
+    "theme": "冒險運",
+    "fortune": "腳步一輕，宇宙就替你開路。抓地防水的日子，連下雨都攔不住你的冒險運。",
+    "tip": "查一條沒走過的步道",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11081876",
+    "img": "images/11081876.jpg"
+  },
+  {
+    "id": 11135577,
+    "name": "俏皮百搭蝴蝶結德訓懶人鞋 灰色",
+    "category": "DK 氣墊鞋",
+    "price": 2980,
+    "theme": "好心情運",
+    "fortune": "翻到這張牌，代表你今天走到哪都自帶輕盈氣墊，連煩惱都被你一步一步Q彈踩掉。",
+    "tip": "出門前對鏡子笑三秒",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11135577",
+    "img": "images/11135577.jpg"
+  },
+  {
+    "id": 11078288,
+    "name": "俏皮繽紛透氣網面老爹鞋 藍色",
+    "category": "DK 氣墊鞋",
+    "price": 2980,
+    "theme": "人氣運",
+    "fortune": "繽紛藍色一上腳，走到哪都自帶聚光燈，今天連陌生人都想多看你一眼。",
+    "tip": "主動向一位新朋友打招呼",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11078288",
+    "img": "images/11078288.jpg"
+  },
+  {
+    "id": 11372389,
+    "name": "厚底透氣懶人鞋 白色",
+    "category": "DK 氣墊鞋",
+    "price": 2980,
+    "theme": "偷閒運",
+    "fortune": "牌面翻開，是一雙輕到像沒穿的鞋。宇宙提醒你：今天的行程，記得留一格空白偷閒。",
+    "tip": "在行事曆挖一格空白",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11372389",
+    "img": "images/11372389.jpg"
+  },
+  {
+    "id": 11078333,
+    "name": "夢幻人魚蕾絲休閒女鞋 粉紅",
+    "category": "DK 氣墊鞋",
+    "price": 2980,
+    "theme": "戀愛運",
+    "fortune": "別急著找命中注定，這雙鞋Q彈得能陪你多繞兩圈——多走的那段路，剛好遇見對的人。",
+    "tip": "走進一條沒走過的巷子",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11078333",
+    "img": "images/11078333.jpg"
+  },
+  {
+    "id": 10737712,
+    "name": "寬帶刺繡感厚底涼拖鞋 杏色",
+    "category": "DK 氣墊鞋",
+    "price": 3280,
+    "theme": "度假運",
+    "fortune": "行李都還沒收，好運已經先幫你踩穩每一步；這個夏天，海風會把你放假的訊號，吹得又遠又響亮。",
+    "tip": "把手機桌布換成想去的海",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/10737712",
+    "img": "images/10737712.jpg"
+  },
+  {
+    "id": 11012995,
+    "name": "日常雙綁帶休閒鞋 淺灰",
+    "category": "DK 氣墊鞋",
+    "price": 3280,
+    "theme": "行動運",
+    "fortune": "雙綁帶一繫緊，猶豫就打包收好，今天你踏出的每一步都算數，走吧。",
+    "tip": "把拖了三天的那件事做掉",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11012995",
+    "img": "images/11012995.jpg"
+  },
+  {
+    "id": 11061454,
+    "name": "率性透氣蝴蝶結老爹鞋 灰色",
+    "category": "DK 氣墊鞋",
+    "price": 3980,
+    "theme": "自信運",
+    "fortune": "別人還在猶豫，你已經率性地往前走。今天最百搭的單品，是不設限的你自己。",
+    "tip": "主動舉手，接下那個機會",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11061454",
+    "img": "images/11061454.jpg"
+  },
+  {
+    "id": 11372760,
+    "name": "甜酷厚底戶外休閒女鞋 米白",
+    "category": "DK 氣墊鞋",
+    "price": 3480,
+    "theme": "活力運",
+    "fortune": "抽到這張，代表你體內那顆 Q 彈電池已充飽，今天走到哪都自帶回彈，別客氣，放膽多繞點遠路吧！",
+    "tip": "散步時多繞一個街區再回家",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11372760",
+    "img": "images/11372760.jpg"
+  },
+  {
+    "id": 10737417,
+    "name": "簡約百搭真皮休閒女鞋 白色",
+    "category": "DK 氣墊鞋",
+    "price": 3280,
+    "theme": "好感運",
+    "fortune": "乾淨俐落的一抹白，走到哪都替你加分，今天悄悄有人把你的好感值往上調。",
+    "tip": "出門前，對鏡子笑一次",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/10737417",
+    "img": "images/10737417.jpg"
+  },
+  {
+    "id": 11343362,
+    "name": "越野防潑水輕量跑鞋 女款 深藍",
+    "category": "DK 氣墊鞋",
+    "price": 3480,
+    "theme": "突破運",
+    "fortune": "翻到這張牌，前方的爛路早幫你鋪成跑道，卡關的地方，這一步輕輕彈過去。",
+    "tip": "把拖最久的那件事先做五分鐘",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11343362",
+    "img": "images/11343362.jpg"
+  },
+  {
+    "id": 11012699,
+    "name": "閃耀水鑽粗跟穆勒鞋 米白",
+    "category": "DK 氣墊鞋",
+    "price": 3280,
+    "theme": "焦點運",
+    "fortune": "翻到這張，你今天自帶聚光燈，腳步一亮，全場目光就跟著你走。",
+    "tip": "選一件亮色配件出門",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11012699",
+    "img": "images/11012699.jpg"
+  },
+  {
+    "id": 11273180,
+    "name": "防水簡約真皮休閒鞋 白色",
+    "category": "DK 氣墊鞋",
+    "price": 3680,
+    "theme": "平安運",
+    "fortune": "腳下這條路穩了，就算突然下雨也走得乾爽又安穩，平安會一路跟著你。",
+    "tip": "出門帶把傘，安心一整天",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/11273180",
+    "img": "images/11273180.jpg"
+  },
+  {
+    "id": 10737472,
+    "name": "飛織百搭休閒女鞋 黑色",
+    "category": "DK 氣墊鞋",
+    "price": 3280,
+    "theme": "自在運",
+    "fortune": "鬆開來，你腳步輕，日子自然跟著透氣；今天的自在，是你為自己留的餘裕。",
+    "tip": "在明天的行程留一格空白",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/10737472",
+    "img": "images/10737472.jpg"
+  },
+  {
+    "id": 10755462,
+    "name": "經典空氣小白鞋 女款 白色",
+    "category": "DK 空氣鞋",
+    "price": 3480,
+    "theme": "新開始運",
+    "fortune": "翻到一片乾淨的雪白，宇宙在對你眨眼：舊帳翻篇，該踏出全新的第一步了。",
+    "tip": "今天就開始一件想很久的事",
+    "url": "https://www.dk-shoes.com.tw/SalePage/Index/10755462",
+    "img": "images/10755462.jpg"
+  }
+];
