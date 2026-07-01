@@ -13,13 +13,15 @@
 
 ```html
 <iframe
-  src="https://rhk9003.github.io/dk-shoe-fortune/?v=7"
+  src="https://rhk9003.github.io/dk-shoe-fortune/"
   style="width:100%;max-width:560px;height:720px;border:0;display:block;margin:0 auto;"
   loading="lazy"
   title="DK 夏日抽鞋占卜"></iframe>
 ```
 
 想先看嵌入效果，開 `embed-example.html` 即可。「前往購買」預設開新分頁；若想直接在同一視窗跳到商品頁，把 `index.html` 裡 `id="buy-btn"` 的 `target="_blank"` 改成 `target="_top"`。
+
+> 更新後若還顯示舊版，是瀏覽器快取，強制重新整理一次即可（手機下拉重整或關掉分頁重開）。
 
 ## 檔案結構
 | 檔案 | 說明 |
