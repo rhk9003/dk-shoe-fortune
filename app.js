@@ -148,34 +148,6 @@
     }
   }
 
-  // --- Toast ---
-  var toastTimer;
-  function toast(msg) {
-    var t = $("toast");
-    t.textContent = msg;
-    t.classList.add("show");
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () { t.classList.remove("show"); }, 2000);
-  }
-
-  // --- 分享 ---
-  function onShare() {
-    var theme = $("r-theme").textContent;
-    var fortune = $("r-fortune").textContent;
-    var shareText = "我抽到的今日鞋籤是【" + theme + "】：" + fortune + " — DK 夏日抽鞋占卜";
-    var url = location.href.split("#")[0];
-    if (navigator.share) {
-      navigator.share({ title: "DK 夏日抽鞋占卜", text: shareText, url: url })
-        .catch(function () {});
-    } else if (navigator.clipboard) {
-      navigator.clipboard.writeText(shareText + " " + url)
-        .then(function () { toast("已複製，貼上分享給朋友吧 ✦"); })
-        .catch(function () { toast("長按畫面即可截圖分享 📸"); });
-    } else {
-      toast("截圖分享你的鞋籤吧 📸");
-    }
-  }
-
   // --- 綁定 ---
   function init() {
     makeStars();
@@ -183,7 +155,6 @@
     $("start-btn").addEventListener("click", function () { goto("pick"); dealFan(); });
     $("reshuffle-btn").addEventListener("click", dealFan);
     $("again-btn").addEventListener("click", function () { goto("pick"); dealFan(); });
-    $("share-btn").addEventListener("click", onShare);
   }
 
   if (document.readyState === "loading") {

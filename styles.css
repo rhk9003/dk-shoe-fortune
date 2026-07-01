@@ -151,16 +151,7 @@ body{
 .result-actions{display:flex;flex-direction:column;gap:12px;width:min(84vw,320px);
   opacity:0;transform:translateY(12px);transition:all .5s var(--ease) .5s}
 .result-actions.show{opacity:1;transform:none}
-.result-actions .row{display:flex;gap:10px}
-.result-actions .row .btn{flex:1;padding:13px 10px;font-size:.95rem}
-#buy-btn{width:100%}
-
-/* ---- Toast ---- */
-.toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(20px);
-  background:rgba(20,14,40,.95);color:#fff;padding:12px 22px;border-radius:999px;
-  font-size:.9rem;opacity:0;pointer-events:none;transition:all .3s var(--ease);z-index:50;
-  border:1px solid rgba(244,201,93,.4)}
-.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+#buy-btn,#again-btn{width:100%}
 
 .site-foot{position:relative;z-index:1;text-align:center;color:var(--ink-soft);opacity:.6;
   font-size:.74rem;padding:16px 20px 22px}
