@@ -39,8 +39,8 @@ body{
 @keyframes tw{0%,100%{opacity:.15;transform:scale(.7)}50%{opacity:.9;transform:scale(1)}}
 
 /* ---- 版面 ---- */
-.app{position:relative;z-index:1;max-width:560px;margin:0 auto;padding:26px 20px 8px;
-  min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.app{position:relative;z-index:1;max-width:560px;margin:0 auto;padding:16px 18px 10px;
+  min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:safe center}
 .screen{display:none;width:100%;flex-direction:column;align-items:center;text-align:center;
   animation:screenIn .5s var(--ease) both}
 .screen.is-active{display:flex}
@@ -110,7 +110,7 @@ body{
 .fcard.fade{opacity:0;transform:var(--t) translateY(40px) scale(.6);transition:all .45s var(--ease)}
 
 /* ---- 揭曉卡 ---- */
-.reveal-stage{perspective:1400px;margin:6px auto 22px}
+.reveal-stage{perspective:1400px;margin:2px auto 14px}
 .card{width:min(84vw,320px);aspect-ratio:63/100;position:relative}
 .card-inner{position:absolute;inset:0;transform-style:preserve-3d;
   transition:transform .9s var(--ease);transform:rotateY(180deg)}
@@ -146,9 +146,7 @@ body{
 .tip::before{content:"🍀 幸運提示 · ";font-weight:700;color:#b07b25}
 .prod{margin-top:13px;display:flex;flex-direction:column;gap:2px;width:100%;
   border-top:1px solid rgba(58,47,77,.14);padding-top:11px}
-.prod-name{font-size:.86rem;font-weight:500;color:#4a3f5c;line-height:1.4}
-.prod-price{font-size:1.02rem;font-weight:700;color:var(--coral)}
-.prod-price::before{content:"NT$ "}
+.prod-name{font-size:.9rem;font-weight:600;color:#4a3f5c;line-height:1.45}
 
 .result-actions{display:flex;flex-direction:column;gap:12px;width:min(84vw,320px);
   opacity:0;transform:translateY(12px);transition:all .5s var(--ease) .5s}

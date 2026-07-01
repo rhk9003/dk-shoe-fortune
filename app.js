@@ -103,7 +103,6 @@
     $("r-fortune").textContent = card.fortune;
     $("r-tip").textContent = card.tip;
     $("r-name").textContent = card.name;
-    $("r-price").textContent = Number(card.price).toLocaleString("en-US");
     $("buy-btn").href = card.url;
   }
 

@@ -8,6 +8,20 @@
 3. 翻牌揭曉：鞋款照片 + 運勢主題 + 運勢小語 + 幸運提示
 4. 可「前往購買這雙鞋」、「再抽一次」或「分享」
 
+## 嵌入 91app（iframe）
+把下面這段貼進 91app 頁面的「HTML 自訂區塊」即可（`height` 建議 700–760px）：
+
+```html
+<iframe
+  src="https://rhk9003.github.io/dk-shoe-fortune/"
+  style="width:100%;max-width:560px;height:720px;border:0;display:block;margin:0 auto;"
+  allow="clipboard-write; web-share"
+  loading="lazy"
+  title="DK 夏日抽鞋占卜"></iframe>
+```
+
+想先看嵌入效果，開 `embed-example.html` 即可。「前往購買」預設開新分頁；若想直接在同一視窗跳到商品頁，把 `index.html` 裡 `id="buy-btn"` 的 `target="_blank"` 改成 `target="_top"`。
+
 ## 檔案結構
 | 檔案 | 說明 |
 | --- | --- |
